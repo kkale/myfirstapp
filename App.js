@@ -4,5 +4,7 @@ Ext.define('CustomApp', {
 
     launch: function() {
         //Write app code here
+        console.log("Hello, World!")
+        Ext.Msg.alert("Button", "Click me!");
     }
 });
